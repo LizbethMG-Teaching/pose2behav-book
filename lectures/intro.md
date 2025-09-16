@@ -1,3 +1,5 @@
 # Lecture: Introduction to Pose & Behavior
 
-Short outline of what this lecture covers.
+- Course overview and objectives
+- Pose estimation pipeline overview
+- Example applications
