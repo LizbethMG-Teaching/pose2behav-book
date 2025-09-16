@@ -1,4 +1,4 @@
-# Pose2Behav — Course
+# Pose2Behav — Course 
 
 Welcome! This site covers:
 - Pose estimation foundations
