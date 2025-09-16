@@ -1,4 +1,4 @@
-# Lecture: Introduction to Pose & Behavior
+# Lecture: Introduction to Pose & Behavior 
 
 - Course overview and objectives
 - Pose estimation pipeline overview
