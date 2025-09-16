@@ -6,3 +6,5 @@ Welcome! This site covers:
 - Behavior feature engineering & Python analysis
 
 Use the left sidebar to navigate.
+
+```{tableofcontents}
