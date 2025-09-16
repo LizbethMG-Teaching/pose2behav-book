@@ -1,10 +1,14 @@
-# Pose2Behav — Course 
+# Pose2Behav — Course
 
-Welcome! This site covers:
-- Pose estimation foundations
-- DeepLabCut workflow (setup, labeling, training, evaluation)
-- Behavior feature engineering & Python analysis
+A practical course on pose estimation (DeepLabCut) and behavior analysis in Python.
 
-Use the left sidebar to navigate.
+## Quick links
+- 📘 [Syllabus](syllabus)
+- 📅 [Schedule](schedule)
+- 📚 [Resources](resources)
+- ❓ [FAQ](FAQ)
+- 🧪 [Labs](labs/labeling-lab)
+- 🎓 [Lectures](lectures/intro)
 
 ```{tableofcontents}
+```

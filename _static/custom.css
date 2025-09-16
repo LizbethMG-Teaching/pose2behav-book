@@ -1,0 +1,8 @@
+/* Slightly widen content on large screens */
+@media (min-width: 1200px) {
+  .bd-content { max-width: 980px; }
+}
+
+/* Improve list spacing on homepage quick links */
+.bd-content ul { margin-top: 0.4rem; }
+.bd-content li { margin: 0.2rem 0; }

@@ -14,6 +14,13 @@ html:
   use_repository_button: true
   use_issues_button: true
   use_edit_page_button: true
+  use_fullscreen_button: true
+  use_download_button: true
+  # Optional footer line — adjust or remove if you prefer
+  extra_footer: |
+    © {{ date | strftime("%Y") }} Pose2Behav — Built with Jupyter Book.
+  extra_css:
+    - _static/custom.css
 
 parse:
   myst_enable_extensions:
