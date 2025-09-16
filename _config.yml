@@ -2,6 +2,8 @@
 title: "Pose2Behav — Course"
 author: "Lizbeth Mondragón"
 
+logo: assets/logo_mouse_camera.png
+favicon: assets/logo_mouse_camera.png
 # Repo buttons in the top bar
 repository:
   url: https://github.com/LizbethMG-Teaching/pose2behav-book
