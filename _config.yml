@@ -15,6 +15,15 @@ html:
   use_issues_button: true
   use_edit_page_button: true
 
+parse:
+  myst_enable_extensions:
+    - colon_fence      # needed for callouts and directives
+    - dollarmath       # $inline$ and $$block$$ math
+    - linkify          # auto-detect bare links
+    - substitution     # simple text substitutions (optional)
+    - deflist          # definition lists (optional)
+    - tasklist         # [ ] task checkboxes
+
 # Don’t execute notebooks during build (you can change later)
 execute:
   execute_notebooks: "off"
