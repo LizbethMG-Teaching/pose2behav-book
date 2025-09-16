@@ -1,0 +1,18 @@
+# JUPYTER BOOK CONFIG
+title: "Pose2Behav — Course"
+author: "Lizbeth Mondragón"
+
+# Repo buttons in the top bar
+repository:
+  url: https://github.com/LizbethMG-Teaching/pose2behav-book
+  branch: main
+  path_to_book: .
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+
+# Don’t execute notebooks during build (you can change later)
+execute:
+  execute_notebooks: "off"
