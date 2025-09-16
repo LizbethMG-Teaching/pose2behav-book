@@ -1,6 +1,26 @@
 format: jb-book
 root: index
-chapters:
-  - file: syllabus
-  - file: schedule
-  - file: resources
+
+parts:
+  - caption: Course Information
+    chapters:
+      - file: syllabus
+      - file: schedule
+      - file: resources
+      - file: FAQ
+
+  - caption: Lectures
+    chapters:
+      - file: lectures/intro
+
+  - caption: Labs
+    chapters:
+      - file: labs/labeling-lab
+      - file: labs/training-eval-lab
+      - file: labs/basic-analysis-lab
+      - file: labs/behavioral-segmentation-lab
+
+  - caption: Assignments
+    chapters:
+      - file: assignments/miniproject
+      - file: assignments/quiz-1
