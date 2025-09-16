@@ -1,3 +1,9 @@
 # Assignment: Mini-Project
 
-Goals, deliverables, rubric, and submission instructions.
+## Prompt
+Choose a short video and produce a minimal analysis (keypoints → features → simple result).
+
+## Rubric (draft)
+- Reproducibility
+- Clarity of analysis
+- Basic evaluation
