@@ -9,5 +9,3 @@ This course is part of the curriculum in several Master’s programs, including 
 - ❓ [FAQ](FAQ)
 - 🧪 [Labs](labs/labeling-lab)
 - 🎓 [Lectures](lectures/intro)
-
-

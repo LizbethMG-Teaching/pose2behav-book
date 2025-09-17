@@ -15,6 +15,7 @@ parts:
 
   - caption: Labs
     chapters:
+      - file: labs/0_prerequisites
       - file: labs/labeling-lab
       - file: labs/training-eval-lab
       - file: labs/basic-analysis-lab
