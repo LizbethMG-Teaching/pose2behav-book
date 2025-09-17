@@ -12,32 +12,29 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  color: #333;
-  background-color: #ffffff;
   line-height: 1.6;
 }
 
 /* ====== Headings ====== */
 h1, h2, h3, h4 {
   font-weight: 600;
-  color: #264653; /* deep green */
+  color: #662C91; /* deep green */
   margin-top: 1.5em;
 }
 
 /* ====== Links ====== */
 a {
-  color: #E76F51; /* coral accent */
+  color: #17a398; 
   text-decoration: none;
 }
 
 a:hover {
-  color: #2A9D8F; /* teal hover */
+  color: #f38d68; /* teal hover */
   text-decoration: underline;
 }
 
 /* ====== Code blocks ====== */
 .highlight pre {
-  background: #f8f9fa; /* light gray */
   border-radius: 6px;
   padding: 0.7em;
   font-size: 0.9em;
@@ -45,7 +42,6 @@ a:hover {
 
 /* Inline code */
 code {
-  background: #f1f1f1;
   padding: 2px 5px;
   border-radius: 4px;
   font-size: 0.9em;
@@ -80,7 +76,7 @@ hr {
 }
 
 .admonition.tip {
-  border-left: 6px solid #2A9D8F; /* teal */
+  border-left: 6px solid #662C91; /* teal */
   background: #E8F9F4;
 }
 
