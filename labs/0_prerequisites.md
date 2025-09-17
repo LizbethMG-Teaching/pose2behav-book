@@ -29,7 +29,7 @@ It can be installed:
 * Locally, with either a CPU version or a GPU version (if your laptop/desktop has a compatible GPU).
 * On the cloud (e.g., Google Colab).
 
-For this course:
+<span class="violet-text"> For this course: </span>
 
 * You will install the CPU version with the GUI on your computer.
 * This will be used in Labs 1 and 2 (frame extraction, labeling, dataset preparation).
