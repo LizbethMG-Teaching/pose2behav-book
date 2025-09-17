@@ -1,37 +1,27 @@
 # Syllabus
 
-## Objectives
-- Understand pose estimation pipelines
-- Run DeepLabCut end-to-end with sample data
-- Analyze behavior features in Python
+## Course overview 
 
-## Topics
-- Week 1: Foundations
-- Week 2: DLC setup & labeling
-- Week 3: Training & evaluation
-- Week 4: Inference & analysis
+This course introduces students to quantitative, data-driven methods for analyzing animal behavior from video recordings. Using deep-learning based pose estimation tools such as *DeepLabCut*, participants learn how to extract movement keypoints and transform them into interpretable behavioral metrics. The course combines lectures on the theoretical foundations of computational behavioral analysis with hands-on exercises that guide students through the full workflow: from video → pose data → behavioral quantification → visualization and interpretation.
 
-```{note}
-This is a friendly note box.
-```
 
-```{warning}
-This is a warning callout (great for pitfalls).
-```
+## 🎯Course leanring outcomes
+By the end of the course, students will be able to:
 
-Inline math like $E = mc^2$ renders inline.
+* Explain the principles of pose estimation.
+* Preprocess and clean pose data generated from videos.
+* Compute basic behavioral metrics such as trajectories, speed, spatial occupancy, and turning bias.
+* Segment activity states and construct ethograms from video data.
+* Visualize and interpret behavioral data to generate clear scientific insights.
+* Understand the principles behind behavioral segmentation techniques and apply them to real data.
+* Critically evaluate the strengths and limitations of AI-driven behavioral analysis approaches.
 
-Block math:
+## 👩‍🏫 Instructors
 
-$$
-\mathcal{L}(\theta) = \sum_{i=1}^N \| y_i - \hat{y}_i(\theta) \|^2
-$$
 
-- [x] Create repo
-- [x] Publish with Pages
-- [ ] Add first notebook
+* **S. Lizbeth Mondragón-González**  – Course lead, Ph.D. Research Engineer, Paris Brain Institute.
 
-```{code-cell} python
-import numpy as np
-np.arange(5)
-```
+* **Christiane Schreiweiss** - Lecturer, Ph.D. Professor at Université Lyon 1
+
+* **Indira Lavocat** - Assistant, Engineer at the Paris Brain Insitut.
+
