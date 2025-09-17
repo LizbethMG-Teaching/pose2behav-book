@@ -1,4 +1,4 @@
-# Pre-requisites
+# Lab 0 - Pre-requisites
 
 This course requires some basic setup before you can start working with DeepLabCut.  
 Please follow the steps below to prepare your computer and install the necessary software.
@@ -7,11 +7,9 @@ Please follow the steps below to prepare your computer and install the necessary
 
 ## 2. DeepLabCut installation 
 
-We will use [DeepLabCut (DLC)](https://www.mackenziemathislab.org/deeplabcut),  
-a widely used open-source Python package collaboratively developed by the [Mackenzie Mathis Lab](https://www.mackenziemathislab.org/) and the [Mathis Lab](https://mathislab.org/).
+We will use [DeepLabCut (DLC)](https://www.mackenziemathislab.org/deeplabcut), a widely used open-source Python package collaboratively developed by the [Mackenzie Mathis Lab](https://www.mackenziemathislab.org/) and the [Mathis Lab](https://mathislab.org/).
 
-DLC is a **markerless pose estimation tool** based on transfer learning with deep neural networks.  
-It requires only a small amount of training data and can now be applied to both **2D and 3D pose estimation**, for **single or multiple animals**.
+DLC is a **markerless pose estimation tool** based on transfer learning with deep neural networks. It requires only a small amount of training data and can now be applied to both **2D and 3D pose estimation**, for **single or multiple animals**.
 
 To better understand the principles behind DLC, we recommend reading the **key publications** listed in the [Resources section](https://lizbethmg-teaching.github.io/pose2behav-book/resources.html) of this course, as well as on the [official DLC webpage](https://www.mackenziemathislab.org/deeplabcut).
 
