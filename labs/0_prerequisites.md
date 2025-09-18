@@ -37,11 +37,8 @@ It can be installed:
 
 ### 2.2 Installation information
 
-### 2.2 Installation information
-
 👉 The easiest and [official](https://deeplabcut.github.io/DeepLabCut/docs/installation.html#) way to install DLC is via **Anaconda/Miniconda**.  
 Other installation methods (e.g. `pip`, Docker, …) are also listed in the official repository, but in this guide we focus on the most straightforward approach for beginners.
-
 
 ❗ If you try to install Anaconda while connected to an **institutional network** (Wi-Fi or ethernet), you may encounter errors or find the download link blocked. Since 2024, Anaconda Inc. has changed its commercial licensing terms for organizations, and many institutions now restrict access to Anaconda and Miniconda downloads ([background info here](https://www.fabriziomusacchio.com/blog/2025-07-03-miniforge/)).
 
@@ -93,4 +90,53 @@ python -m deeplabcut
 
 If everything worked, DeepLabCut should open! 😎
 
-### MacOS installation
+### 2.4 MacOS installation
+⏱ Estimated time: ~15-20 minutes
+```{warning}
+Before installing DeepLabCut, you should check which kind of chip your Mac uses. This matters because Macs with Apple Silicon (M-series chips: M1, M2, M3, M4...) need slightly different downloads than older Intel-based Macs. Using the wrong version may lead to slower performance or errors.
+1. Click the Apple menu at top-left of your screen.
+2. Choose “About This Mac”.
+Step	What to do	What to look for
+1. Click the Apple menu () at top-left of your screen.	—	—
+2. Choose “About This Mac”.	—	—
+3. Look for a line that says “Chip” or “Processor”.
+If it says “Chip: Apple M1 / M2 / M3 / M4 / etc.” → you have Apple Silicon. If it says “Processor: Intel Core …” → you have an Intel Mac
+```
+
+### 2.5 Uninstalling DeepLabCut - (cleanup after the course)
+
+If you no longer need DeepLabCut and want to return your laptop to its previous state, you can safely remove the environment and Anaconda/Miniconda.
+
+---
+
+**Option A — Remove only the DeepLabCut environment (recommended if you might use Anaconda later):**
+
+1. Open **Anaconda Prompt** (Windows) or a terminal (macOS/Linux).  
+2. Run:  
+   ```bash
+   conda remove --name DEEPLABCUT --all
+✅ This deletes the DEEPLABCUT environment and all packages inside it, but keeps Anaconda/Miniconda installed on your system.
+
+---
+
+**Option B — Completely remove Anaconda/Miniconda (if you only installed it for this course):**
+
+**Windows**
+
+Open Control Panel → Programs and Features.
+
+Find Anaconda (or Miniconda) in the list, right-click → Uninstall.
+
+Delete the leftover folder (usually C:\Users\<YourName>\Anaconda3 or C:\Users\<YourName>\Miniconda3) if it remains.
+
+**macOS/Linux**
+
+Delete the Anaconda/Miniconda installation folder, e.g.:
+
+bash
+Copier le code
+rm -rf ~/anaconda3
+rm -rf ~/miniconda3
+Remove the conda initialization lines from your shell config file (.bashrc, .zshrc, etc.), if present.
+
+💡 Tip: If you are unsure, Option A is safest. It frees up disk space but keeps Anaconda available in case you want to use Python for other projects.
