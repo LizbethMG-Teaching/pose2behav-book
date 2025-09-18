@@ -77,12 +77,12 @@ hr {
 
 .admonition.tip {
   border-left: 6px solid #662C91; /* teal */
-  background: #E8F9F4;
+
 }
 
 .admonition.warning {
-  border-left: 6px solid #E9C46A; /* yellow */
-  background: #FFF8E1;
+  border-left: 6px solid #e7ae1e; /* yellow */
+
 }
 
 .admonition.danger {
