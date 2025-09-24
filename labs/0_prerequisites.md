@@ -135,15 +135,17 @@ If everything worked, DeepLabCut should open! 😎
 1. Install Miniconda (lightweight Anaconda).
    If you already have Anaconda/Miniconda, you can skip to Step 2.
 
-   - Go to the  [Miniconda download page.](https://www.anaconda.com/download/success)
-   - Download the installer for your Mac:
+   Go to the  [Miniconda download page.](https://www.anaconda.com/download/success)
+   
+   Download the installer for your Mac:
   
       🟩 Apple chip (arm64) →  macOS Apple M1/M2 (arm64).
 
       🟦 Intel (x86_64) →  macOS Intel (x86_64).
 
-   - Run the installer (just click through).
-   - After installation: Open a new Terminal window (⌘ + Space → type “Terminal” → Enter). Type:
+   Run the installer (just click through).
+
+   After installation: Open a new Terminal window (⌘ + Space → type “Terminal” → Enter). Type:
 
       ```bash
             conda --version
