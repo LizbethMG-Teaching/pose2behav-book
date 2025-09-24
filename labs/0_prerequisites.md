@@ -4,7 +4,9 @@ This course requires some basic setup before you can start working with DeepLabC
 Please follow the steps below to prepare your computer and install the necessary software.
 
 ## 1. Preparing your workspace
-
+- Make sure you have at least 5–10 GB of free disk space before starting.
+- Ensure you have a stable internet connection. 
+- On macOS: the first time you access Downloads in Terminal, you may get a popup asking “Terminal wants to access your Downloads folder.” → Click Allow.
 ## 2. DeepLabCut installation 
 
 ### 2.1 Introduction
@@ -29,7 +31,7 @@ It can be installed:
 * Locally, with either a CPU version or a GPU version (if your laptop/desktop has a compatible GPU).
 * On the cloud (e.g., Google Colab).
 
-<span class="violet-text"> For this course: </span>
+<span class="violet-text"> ✔️ For this short course: </span>
 
 * You will install the **CPU version for single animal scenario** using a **conda environment**, allowing you to use the GUI on your computer.
 * The GUI will be used for Labs 1 and 2 (frame extraction, labeling, dataset preparation).
@@ -49,7 +51,7 @@ Other installation methods (e.g. `pip`, Docker, …) are also listed in the offi
 🟣 **This guide assumes you follow the typical Anaconda installation (and that you do not already have conda/mamba installed).**
 
 ### 2.3 Windows installation
-⏱ Duration: ~10–15 min
+⏱ Duration: ~15–20 min
 
 ---
 
@@ -67,13 +69,12 @@ Other installation methods (e.g. `pip`, Docker, …) are also listed in the offi
    - Click *Start*, type `Anaconda Prompt`,  
    - Right-click → *Run as administrator*.  
 
-3. In the Anaconda Prompt, move to the folder where you saved the `.yaml` file:  
- 🔎 Replace PATH_TO_THE_FOLDER with the actual folder path on your computer, e.g.: 
- 
-   cd C:\Users\YourName\Downloads
-   ```python
-   cd PATH_TO_THE_FOLDER 
-   ```
+3. Move to the folder where you saved the `.yaml`  file. For example: 
+ ```bash 
+cd C:\Users\YourName\Downloads
+```
+(Replace YourName with your actual Windows username.)
+
 4. Create the DeepLabCut environment:
     ```python
    conda env create -f DEEPLABCUT.yaml 
@@ -92,51 +93,215 @@ If everything worked, DeepLabCut should open! 😎
 
 ### 2.4 MacOS installation
 ⏱ Estimated time: ~15-20 minutes
-```{warning}
-Before installing DeepLabCut, you should check which kind of chip your Mac uses. This matters because Macs with Apple Silicon (M-series chips: M1, M2, M3, M4...) need slightly different downloads than older Intel-based Macs. Using the wrong version may lead to slower performance or errors.
-1. Click the Apple menu at top-left of your screen.
-2. Choose “About This Mac”.
-Step	What to do	What to look for
-1. Click the Apple menu () at top-left of your screen.	—	—
-2. Choose “About This Mac”.	—	—
-3. Look for a line that says “Chip” or “Processor”.
-If it says “Chip: Apple M1 / M2 / M3 / M4 / etc.” → you have Apple Silicon. If it says “Processor: Intel Core …” → you have an Intel Mac
+
+---
+
+#### Step 0 — Identify your Mac type and install option
+
+- Click  → **About This Mac**  
+- If you see **“Chip: Apple M…”** → follow *Apple Silicon* path  --> 🟩
+- If you see **“Processor: Intel…”** → follow *Intel Mac* path  ---> 🟦
+
+👉🏼 To set up your Python environment for data science, you have two main approaches.
+- **Option 1: Install DeepLabCut with Anaconda(Miniconda) + Mamba** --> 🟠 
+      
+   _Works fine if you already have Anaconda/Miniconda installed_
+
+   You can install Anaconda, which is a large distribution of Python for data science. It comes with Conda, the package and environment manager, plus hundreds of scientific and machine-learning libraries already installed.  This is convenient because everything is included, but it is large and sometimes slow when installing or updating packages. To solve the slowness, you can add Mamba, which is a drop-in replacement for Conda: it does exactly the same tasks (creating environments, installing and updating packages, solving dependencies) but much faster, because it is written in C++ rather than Python.
+
+- **Option 2:  Install DeepLabCut with Miniforge + Mamba** --> 🟡 
+
+   _Best for new students, clean and fast, avoids “stuck” installs_
+
+   You can install Miniforge, which is a lightweight community-driven installer for Conda. Unlike Anaconda, it does not preload a big set of packages — you start small and install only what you need, which keeps your system cleaner and more flexible. The variant called Mambaforge includes Mamba by default, so you benefit from the faster package management without any extra steps.
+
+---
+
+#### Step 1. Install your package /environement manager 
+
+🟠 Follow these steps for Option 1
+1. Install Miniconda (lightweight Anaconda).
+   If you already have Anaconda/Miniconda, you can skip to Step 2.
+
+ - Go to the  [Miniconda download page.](https://www.anaconda.com/download/success)
+ - Download the installer for your Mac:
+  
+	•	🟩 Apple chip (arm64) →  macOS Apple M1/M2 (arm64).
+
+	•	🟦 Intel (x86_64) →  macOS Intel (x86_64).
+ - 	Run the installer (just click through).
+
+      After installation:
+
+	•	Open a new Terminal window (⌘ + Space → type “Terminal” → Enter)
+
+	•	Type: 
+      ```bash 
+      conda --version
+      ```
+      If you see a version number → ✅ success.
+
+2. Install Mamba inside Anaconda
+   
+   In the Terminal window type the following command:
+      ```bash 
+      conda activate base
+      conda install -n base -c conda-forge mamba -y
+      ```
+🟡 Option 2 — Miniforge (includes Mamba)
+1. Download Miniforge to your Download folder: [Miniforge download page.](https://conda-forge.org/download/)
+   If you already have Miniforge, you can skip to Step 2.
+  
+	•	🟩 Apple chip  →  arm64 (Apple Silicon).
+
+	•	🟦 Intel (x86_64) →  x86_64 (Intel)
+
+2. In the Terminal:
+
+   ```bash 
+   cd ~/Downloads
+   bash Miniforge3-*.sh
+   ```
+   (Replace * with the real file name.) Press Enter to accept defaults. 
+
+
+3. Restart Terminal and check:
+   ```  bash 
+      mamba --version
+   ```
+   If you see a version number → ✅ success.
+
+#### Step 2. Download the official DLC installation file
+
+The DeepLabCut team provides a recipe file (called DEEPLABCUT.yaml) that tells Conda/Mamba what to install.
+
+- Go to the [download link](https://github.com/DeepLabCut/DeepLabCut/blob/main/conda-environments/DEEPLABCUT.yaml)
+- Click on the “…” → Download.
+- Save the file in your Downloads folder.
+
+#### Step 3. Create the DeepLabCut environment
+
+Now we’ll read the recipe from the Download folder and set up DLC. This operation might take several minutes. On macOS: the first time you access Downloads in Terminal, you may get a popup asking “Terminal wants to access your Downloads folder.” → Click Allow.
+
+In Terminal:
+   ```bash 
+   cd ~/Downloads
+   ```
+
+🟠  For option 1 (Miniconda) type: ` conda env create -f DEEPLABCUT.yaml `
+
+🟡  For option 1 (Miniforge) type: ` mamba env create -f DEEPLABCUT.yaml `
+
+⚠️ This step may take several minutes.
+
+#### Step 4. Activate your new environment and launch DLC
+
+Think of an environment like a separate workspace. You have to “enter” it each time before using DLC.
+
+In Terminal: 
+```bash 
+conda activate DEEPLABCUT
+python -m deeplabcut
 ```
+- You should now see (DEEPLABCUT) at the beginning of your Terminal line.
+- After a few instants, the GUI should appear, you are done !. 😎
 
-### 2.5 Uninstalling DeepLabCut - (cleanup after the course)
+#### Additional notes and Troubleshooting
+---
 
-If you no longer need DeepLabCut and want to return your laptop to its previous state, you can safely remove the environment and Anaconda/Miniconda.
+Remember for this course we are not using the GPU.
+Apple Silicon (M1/M2/M3/M4) users get GPU acceleration via PyTorch/MPS automatically.
+
+To confirm your GPU is available (**Apple Silicon only**):
+
+```bash 
+python - <<'PY'
+import torch
+print("MPS available:", torch.backends.mps.is_available())
+PY
+```
+- MPS available: True → GPU is working ✅
+- False → running on CPU (expected on Intel Macs).
+
+---
+If installation breaks, remove the environment and retry from STEP 3
+```bash 
+conda deactivate
+conda remove --name DEEPLABCUT --all -y
+```
+---
+
+You canalso refer to the [complete and official installation guide](https://deeplabcut.github.io/DeepLabCut/docs/installation.html) for official troubleshooting.
+
+
+### 3. Uninstalling DeepLabCut (cleanup after the course)
+
+If you no longer need DeepLabCut and want to return your laptop to its previous state, you can safely remove the environment. Don’t forget to delete the .yaml file you downloaded.
 
 ---
 
-**Option A — Remove only the DeepLabCut environment (recommended if you might use Anaconda later):**
-
-1. Open **Anaconda Prompt** (Windows) or a terminal (macOS/Linux).  
-2. Run:  
-   ```bash
+**Option A — Remove only the DeepLabCut environment (recommended):**
+ ```bash
    conda remove --name DEEPLABCUT --all
-✅ This deletes the DEEPLABCUT environment and all packages inside it, but keeps Anaconda/Miniconda installed on your system.
+```
+✅ This deletes the DEEPLABCUT environment and all packages inside it, but keeps Anaconda (miniconda)/Miniforge installed for future use.
 
 ---
 
-**Option B — Completely remove Anaconda/Miniconda (if you only installed it for this course):**
+**Option B — Completely remove Anaconda/Miniconda/Miniforge:(if you only installed it for this course):**
 
 **Windows**
 
-Open Control Panel → Programs and Features.
+Control Panel → Programs and Features → Uninstall Anaconda.
 
-Find Anaconda (or Miniconda) in the list, right-click → Uninstall.
+Delete leftover folder (e.g. C:\Users\<YourName>\Anaconda3).
 
-Delete the leftover folder (usually C:\Users\<YourName>\Anaconda3 or C:\Users\<YourName>\Miniconda3) if it remains.
-
-**macOS/Linux**
-
-Delete the Anaconda/Miniconda installation folder, e.g.:
-
-bash
-Copier le code
+**macOS**
+1. Delete the Anaconda/Miniconda/Miniforge installation folder, e.g.:
+```bash
 rm -rf ~/anaconda3
 rm -rf ~/miniconda3
-Remove the conda initialization lines from your shell config file (.bashrc, .zshrc, etc.), if present.
+rm -rf ~/miniforge3
+```
+2.	Remove the Conda initialization lines from your shell configuration file.
+These lines were automatically added when you installed Conda and look like this:
+```bash
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+...
+# <<< conda initialize <<<
+```
+How to know which file to edit: `echo $SHELL`
 
-💡 Tip: If you are unsure, Option A is safest. It frees up disk space but keeps Anaconda available in case you want to use Python for other projects.
+- If it ends with /zsh → you are using zsh (default on macOS since Catalina).
+Open the file:
+
+```bash
+nano ~/.zshrc
+````
+
+If it ends with /bash → you are using bash.
+Open the file:
+```bash
+nano ~/.bashrc
+````
+How to edit:
+- Scroll to the conda initialize block.
+- Delete the entire block (use Ctrl+K in nano to cut lines).
+- Save with Ctrl+O, press Enter, then exit with Ctrl+X.
+
+3.	Reload your shell so the changes take effect:
+
+for ZSH
+```bash
+exec zsh
+````
+for BASH
+```bash
+exec bash 
+````
+
+Check which shell you are using:
+
+
+💡 Tip: I If unsure, Option A is safest — it frees up disk space while keeping Python tools available.
