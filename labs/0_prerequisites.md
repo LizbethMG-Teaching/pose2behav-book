@@ -7,7 +7,6 @@ Please follow the steps below to prepare your computer and install the necessary
 
 - Make sure you have at least 5–10 GB of free disk space before starting.
 - Ensure you have a stable internet connection.
-- On macOS: the first time you access Downloads in Terminal, you may get a popup asking “Terminal wants to access your Downloads folder.” → Click Allow.
 
 ## 2. DeepLabCut installation
 
@@ -61,7 +60,7 @@ Other installation methods (e.g. `pip`, Docker, …) are also listed in the offi
 
 #### Step 1 - Install Python via Anaconda
 
-- [Download Anaconda for Windows](https://www.anaconda.com/download/) (64-bit, Python 3.x).  
+- [Download Anaconda for Windows](https://www.anaconda.com/download/success) (Distribution Installer: 64-bit, Python 3.x).  
 - Run the installer and accept the **default settings** (recommended).  
 
 ---
@@ -136,28 +135,23 @@ If everything worked, DeepLabCut should open! 😎
 1. Install Miniconda (lightweight Anaconda).
    If you already have Anaconda/Miniconda, you can skip to Step 2.
 
-- Go to the  [Miniconda download page.](https://www.anaconda.com/download/success)
-- Download the installer for your Mac:
+   - Go to the  [Miniconda download page.](https://www.anaconda.com/download/success)
+   - Download the installer for your Mac:
   
- • 🟩 Apple chip (arm64) →  macOS Apple M1/M2 (arm64).
+      🟩 Apple chip (arm64) →  macOS Apple M1/M2 (arm64).
 
- • 🟦 Intel (x86_64) →  macOS Intel (x86_64).
+      🟦 Intel (x86_64) →  macOS Intel (x86_64).
 
-- Run the installer (just click through).
+   - Run the installer (just click through).
+   - After installation: Open a new Terminal window (⌘ + Space → type “Terminal” → Enter). Type:
 
- After installation:
+      ```bash
+            conda --version
+      ```
 
- • Open a new Terminal window (⌘ + Space → type “Terminal” → Enter)
+      If you see a version number → ✅ success.
 
- • Type:
-
-```bash
-      conda --version
-```
-
-If you see a version number → ✅ success.
-
-1. Install Mamba inside Anaconda
+2. Install Mamba inside Anaconda
 
    In the Terminal window type the following command:
 
@@ -234,8 +228,7 @@ python -m deeplabcut
 
 ---
 
-Remember for this course we are not using the GPU.
-Apple Silicon (M1/M2/M3/M4) users get GPU acceleration via PyTorch/MPS automatically.
+Remember, for this course we are not using the GPU, but Apple Silicon (M1/M2/M3/M4) users get GPU acceleration via PyTorch/MPS automatically with the install.
 
 To confirm your GPU is available (**Apple Silicon only**):
 
@@ -264,6 +257,8 @@ You canalso refer to the [complete and official installation guide](https://deep
 ### 3. Uninstalling DeepLabCut (cleanup after the course)
 
 If you no longer need DeepLabCut and want to return your laptop to its previous state, you can safely remove the environment. Don’t forget to delete the .yaml file you downloaded.
+
+💡 Tip: I If unsure, Option A is safest — it frees up disk space while keeping Python tools available
 
 ---
 
@@ -298,49 +293,43 @@ Delete leftover folder (e.g. C:\Users\<YourName>\Anaconda3).
 2. Remove the Conda initialization lines from your shell configuration file.
 These lines were automatically added when you installed Conda and look like this:
 
-```bash
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-...
-# <<< conda initialize <<<
-```
+   ```bash
+   # >>> conda initialize >>>
+   # !! Contents within this block are managed by 'conda init' !!
+   ...
+   # <<< conda initialize <<<
+   ```
 
-How to know which file to edit: `echo $SHELL`
+   How to know which file to edit: `echo $SHELL`
 
 - If it ends with /zsh → you are using zsh (default on macOS since Catalina).
 Open the file:
 
-```bash
-nano ~/.zshrc
-````
+   ```bash
+   nano ~/.zshrc
+   ````
 
-If it ends with /bash → you are using bash.
-Open the file:
+- If it ends with /bash → you are using bash. Open the file:
 
-```bash
-nano ~/.bashrc
-````
+   ```bash
+   nano ~/.bashrc
+   ````
 
-How to edit:
+   How to edit:
 
 - Scroll to the conda initialize block.
 - Delete the entire block (use Ctrl+K in nano to cut lines).
 - Save with Ctrl+O, press Enter, then exit with Ctrl+X.
+- Reload your shell so the changes take effect:
 
-1. Reload your shell so the changes take effect:
+   for ZSH
 
-for ZSH
+   ```bash
+   exec zsh
+   ````
 
-```bash
-exec zsh
-````
+   for BASH
 
-for BASH
-
-```bash
-exec bash 
-````
-
-Check which shell you are using:
-
-💡 Tip: I If unsure, Option A is safest — it frees up disk space while keeping Python tools available.
+   ```bash
+   exec bash 
+   ````
