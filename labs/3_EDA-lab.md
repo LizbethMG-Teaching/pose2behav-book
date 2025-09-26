@@ -1,4 +1,4 @@
-# Lab: EDA
+# Lab 3: EDA
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Lab: Behavioral Segmentation
+# Lab 4: Analysis
 
 ## Goals
 - Segment behaviors from features and evaluate segments.

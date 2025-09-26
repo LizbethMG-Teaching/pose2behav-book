@@ -1,4 +1,4 @@
-# Lab: Training & Evaluation
+# Lab 2: Training
 
 ## Goals
 - Train a pose model and read key metrics.
