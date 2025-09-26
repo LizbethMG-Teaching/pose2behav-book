@@ -4,15 +4,17 @@
 
 🔑 The key idea
 
-- The superanimal model is a foundation model trained on tons of mouse videos.
-- When you run it on your own video, DLC does three things:
-  1. Inference before adaptation (apply the pretrained model as is).
-  2. Adaptation (fine-tune the model a little bit on your own video, based on detected frames).
-  3. Save both the predictions (CSV/JSON/MP4) and the adapted weights (H5/PT snapshots).
+- The SuperAnimal model[1] is a foundation for pose estimation model trained on tons of mouse videos.
+- When you run it on your own video, SuperAnimal does three things:
+  1. Inference before adaptation → run the pretrained model directly on your video.
+  2. Adaptation step → optionally refine the model on your video (via lightweight domain adaptation or fine-tuning with labeled frames).
+  3. Saving results → DLC outputs the predictions (pose data, labeled video) and stores the adapted weights separately.
+
+[1]: Ye, S., Filippova, A., Lauer, J. et al. SuperAnimal pretrained pose estimation models for behavioral analysis. Nat Commun 15, 5165 (2024).
 
 ## Tasks
 
-For this exercise you will first work on your Exploratory Data Analysis (EDA) to understand what are the files you have at your disposition after running a pose estimation analysis. This is usually the first step that allow us to examine the data, its characteristics and possible anomalies before actually working with the prediction files. 
+In this exercise, you will first conduct an Exploratory Data Analysis (EDA) to examine the files produced by a pose estimation analysis. This preliminary step is critical, as it enables a systematic assessment of the data structure, its defining characteristics, and potential anomalies, thereby providing the necessary foundation for subsequent work with the prediction files.
 
 ### Deliverables
 
@@ -20,7 +22,11 @@ For this exercise you will first work on your Exploratory Data Analysis (EDA) to
 
 ## 📂 The files you see
 
--
+### 1. H5 files
+
+### 2. JSON files
+
+### 3. Videos
 
 ### Deliverables
 
