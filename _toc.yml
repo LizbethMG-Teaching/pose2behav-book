@@ -16,10 +16,10 @@ parts:
   - caption: Labs
     chapters:
       - file: labs/0_prerequisites
-      - file: labs/labeling-lab
-      - file: labs/training-eval-lab
-      - file: labs/basic-analysis-lab
-      - file: labs/behavioral-segmentation-lab
+      - file: labs/1_labeling-lab
+      - file: labs/2_training-eval-lab
+      - file: labs/3_EDA-lab
+      - file: labs/4_analysis-lab
 
   - caption: Assignments
     chapters:
