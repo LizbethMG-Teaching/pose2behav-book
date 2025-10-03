@@ -12,6 +12,32 @@
 
 [1]: Ye, S., Filippova, A., Lauer, J. et al. SuperAnimal pretrained pose estimation models for behavioral analysis. Nat Commun 15, 5165 (2024).
 
+### Dataset description  
+
+In this exercise, you will work with a **5-minute video segment** extracted from the dataset published by von Ziegler *et al.* [2].  
+The dataset consists of **top-view recordings of mice** freely exploring an open-field arena with bedding, following **diazepam injections** at different doses.  
+
+The file used here:  
+
+- **Original video file:** `01022023_001_16236-62756.mp4`  
+- **Condition:** Mouse recorded after a diazepam injection (3 mg/kg), part of the dose–response dataset  
+- **Duration:** Trimmed to the **first 5 minutes** of the original recording  
+
+The dataset is released under a **CC BY 4.0 license**, which permits reuse with proper attribution:  
+
+[2] Von Ziegler, L., Roessler, F. K., Sturman, O., O'Connor, E. C., & Bohacek, J. (2024).  
+*Additional raw video and pose estimation data of top view open field mouse behavior recordings after diazepam injections* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11235915  
+
+In this notebook, you won’t work directly with the videos. Instead, you will use the **pose estimation output** generated with the **SuperAnimal Top-View Mouse model zoo** (DeepLabCut).  
+
+
+Here is a short looped preview of the behavior video:
+
+<video width="480" controls autoplay loop>
+  <source src="../assets/videos/single-mouse.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## 📂 The files you get
 
 ### 📊 For analysis 
