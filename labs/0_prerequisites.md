@@ -1,12 +1,102 @@
-# Lab 0 - Pre-requisites
+# Lab 0 - 1 Pre-requisites and setup
 
-This course requires some basic setup before you can start working with DeepLabCut.  
-Please follow the steps below to prepare your computer and install the necessary software.
+Welcome to the practical component of the course!
+Before you begin, please take the time to prepare your computer and familiarize yourself with the environments you’ll use throughout the labs.
 
-## 1. Preparing your workspace
+## What are the Labs?
 
-- Make sure you have at least 5–10 GB of free disk space before starting.
-- Ensure you have a stable internet connection.
+The **Labs** are the hands-on part of this course.
+They are designed to help you apply the theoretical concepts presented in the lectures to real-world examples and data.
+
+Each lab focuses on a specific theme related to animal pose estimation and analysis:
+
+- **Lab 0** —  *Pre-requisites*: Prepare your environment and learn how to use notebooks.
+- **Lab 1** — *Pose Estimation*: Learn to label data and train a simple DeepLabCut model.
+- **Lab 2** — *EDA (Exploratory Data Analysis)*: Work with pose data, explore, and clean it.
+- **Lab 3** — *Data Analysis single animal*: Analyze single-animal videos using pose-based metrics.
+- **Lab 4** — *Data Analysis multi-animal*: Analyze multi-animal videos using pose-based metrics.
+
+Depending on your program or module, you may complete all labs or a selected subset.
+
+💡 **Goal of Lab 0 (this one):** Make sure you are ready to start Lab 1 without technical difficulties and get familiar with the environment for Lab 2 and beyond.
+
+## The Tools You Will Use
+
+### 1. DeepLabCut
+
+Lab 1 introduces you to pose estimation and labeling.
+For this, you will use the GUI of DeepLabCut, an open-source tool that uses deep learning to estimate animal poses.
+You’ll need to install it on your computer before the first practical session.
+
+Detailed installation instructions for Windows and macOS are provided in **Section 2** of this lab.
+
+### 2. Jupyter Notebooks
+
+Jupyter Notebooks are interactive documents that allow you to:
+
+- Write and run Python code
+- Visualize data and results (plots, images, etc.)
+- Add explanations and notes directly next to your code
+
+They are widely used in science and data analysis because they keep your code, results, and documentation together.
+
+You should know how to:
+
+- Open a notebook
+- Run a code cell (Shift + Enter)
+- Edit and save your work
+
+If you are new to Jupyter, don’t worry; a short tutorial link is provided at the end of this lab. If you are already familiar with Jupyter Notebooks feel free to ignore that section.
+
+### 2. Google Colab
+
+Google Colab is an online version of Jupyter Notebook hosted by Google.
+It runs entirely in your browser, meaning:
+
+- No installation is needed
+- You only need a **Google account and an internet connection**
+- You can save your work directly in Google Drive
+
+Starting from Lab 2, you will use Colab for all exercises.
+For now, just make sure you can:
+ • Log into Google Colab
+ • Open a notebook from a shared link
+ • Run and save it in your own Drive
+
+## Overview
+
+| **Lab** | **Title / Theme** | **Main Objective** | **Environment** | **Setup Required** |
+|----------|------------------|--------------------|------------------|--------------------|
+| **Lab 0** | *Pre-requisites* | Prepare your environment and review Jupyter basics. | Local (your computer) | ✅ Follow this guide before the course. |
+| **Lab 1** | *Pose Estimation* | Learn data labeling and pose estimation using **DeepLabCut**. | Local Jupyter Notebook | Install **DeepLabCut** (see Section 2). |
+| **Lab 2** | *Data Analysis* | Work with pose data and explore key metrics. | Google Colab | ☁️ No installation needed. |
+| **Lab 3** | *Data Analysis* | Use pose-based data to interpret behavioral patterns. | Google Colab | ☁️ No installation needed. |
+
+## Lab 0: Objectives
+
+The goals of this preparatory lab are to:
+
+1. Set up your environment by installing the necessary software (especially for Lab 1).
+2. Learn the basics of Jupyter Notebooks, which will be used throughout the course.
+3. Access Google Colab, where later labs will be executed entirely online.
+
+Before beginning the practical component of this course, please ensure that you have completed the **necessary setup** steps and are familiar with **Jupyter Notebooks**.
+You should be comfortable performing the following actions:
+
+- Opening and navigating a notebook
+- Running and editing code cells
+- Saving and re-running notebooks
+
+## Understanding the LAB structure
+
+The **hands-on (practical)** portion of this course is divided into a series of **Labs**.
+Each Lab focuses on a specific theme or skill and contains guided exercises designed to help you apply the concepts introduced during the lectures.
+
+| **Lab** | **Theme** | **Description** | **Requirements** |
+|----------|------------|------------------|------------------|
+| **Lab 0** | *Pre-requisites* | Setup and installation steps required before starting the course. | Complete before the first session (Lab 1). |
+| **Lab 1** | *Pose Estimation* | Introduction to labeling data and the fundamentals of pose estimation using **DeepLabCut**. | Requires **DeepLabCut installation** (see Section 2 below). |
+| **Lab 2 and beyond** | *Data Analysis* | Work directly with sample datasets using **Google Colab** notebooks. | No installation required, but lecture of Section 3 below required. |
 
 ## 2. DeepLabCut installation
 
@@ -136,7 +226,7 @@ If everything worked, DeepLabCut should open! 😎
    If you already have Anaconda/Miniconda, you can skip to Step 2.
 
    Go to the  [Miniconda download page.](https://www.anaconda.com/download/success)
-   
+
    Download the installer for your Mac:
   
       🟩 Apple chip (arm64) →  macOS Apple M1/M2 (arm64).
@@ -335,3 +425,64 @@ Open the file:
    ```bash
    exec bash 
    ````
+
+---
+
+## 3. Using Jupyter Notebooks on Google Colab (for beginners)
+
+You’ll work with **pre-filled notebooks** and complete short TODOs, then run cells to check results. This guide covers just what you need.
+
+### 3. 1. **What is Google Colab?**
+
+   Colab (“Colaboratory”) is a hosted Jupyter Notebook in the browser. No installs. You can run Python, use GPUs when needed, and save to Google Drive.
+
+   ⚡️ [Official intro:](https://colab.research.google.com/) Colab welcome page and feature overview.
+
+### 3.2. Open the notebook the right way
+
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
+
+- If you see an “Open in Colab” badge, click it. Then do **File → Save a copy in Drive** so you work on your own copy.  ￼
+
+### 3.3  Run CODE cells
+
+- Click the ▶️ play button at the left of a cell.
+- Keyboard:
+  - Shift+Enter run and move to next
+  - Ctrl/Cmd+Enter run in place
+  - Alt+Enter run and insert a new cell below
+  
+   These appear in Colab’s basic features notebook.  ￼
+
+   **Run all cells: Runtime → Run all**. Useful after you finished the #TODOs.  ￼
+
+   **Stop a cell: Runtime → Interrupt execution** if something hangs.
+
+### 3.5 Saving your work
+   
+- If you used Save a copy in Drive, your edits autosave to your Drive.
+- You can also File → Download to .ipynb if you want a local copy.
+
+### 3.6 Hardware settings (only if the notebook asks)
+
+   If a Lab ask you to enable a GPU.
+   - Go to Runtime → Change runtime type → Hardware accelerator → GPU, then Save. Colab docs and the “Pro” guide show this flow.  ￼
+
+   If a GPU is not required, keep None to avoid limits.
+
+### 3.7. Reset or restart if things break
+   
+- **Runtime → Restart runtime** clears variables and starts fresh.
+- **Runtime → Factory reset runtime** resets the whole environment. Use this if imports or paths get messy.
+
+### 🫵 Course workflow tips
+
+- Start at the top, run cells in order, complete each TODO block, then re-run the affected section or Run all to verify outputs.  ￼
+- Keep everything in your Drive copy before editing.
+
+### Extra references
+1. [Welcome to Colab overview.](https://colab.research.google.com)  ￼
+2. [Basic features notebook demo.](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) ￼
+3. [Load and save files including Drive mounting.](https://colab.research.google.com/notebooks/io.ipynb) ￼
+4. [Colab** FAQ on Drive access and accelerators.](https://research.google.com/colaboratory/faq.html) ￼
+5. [Jupyter Markdown help.](https://research.google.com/colaboratory/faq.html)
