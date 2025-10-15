@@ -1,6 +1,12 @@
 # Syllabus
 
-![Alt text](../assets/illustrations/syllabus-cover.png)
+<p align="center">
+  <img src="assets/illustrations/syllabus-cover.png" alt="Course cover" style="width:50%; height:auto; display:block; margin:auto;">
+  <br>
+  <span style="font-size:0.9em; color:gray;">
+    Image generated with DALL·E GPT-5.
+  </span>
+</p>
 
 ## Course overview 
 
@@ -14,13 +20,13 @@ The labs are designed to help you apply theoretical concepts to real-world data 
 Throughout the course, you will find:
 
 - Conceptual questions that help you consolidate what was covered during the lectures.
-- Practical exercises in Jupyter Notebooks where you will manipulate real data.
+- Practical exercises (Labs) in Jupyter Notebooks where you will manipulate real data.
 - Challenging reflection questions, which encourage deeper thinking and may or may not appear in the quizzes.
 
 You have access to this **Book**, which contains:
 
-- Introductory information and guidance for each Lab.
-- Direct links to the corresponding Jupyter Notebooks where you will perform the exercises.
+- Introductory information and guidance for each Lab. --> Start with [Lab 0](labs/0_prerequisites)
+- Direct links at the end of each lab to the corresponding Jupyter Notebooks where you will perform the exercises. In the case where there are no links, they will be provided by your instructor the day of the course.
 
 Depending on your specific program or module, you may be required to complete all labs or only a subset of them.
 
@@ -42,5 +48,4 @@ By the end of the course, students will be able to:
 ## 👩‍🏫 Instructors
 
 ⭐️ [S. Lizbeth Mondragón-González](https://lizbeth-mg.me/): Course lead, Ph.D. Research Engineer, Paris Brain Institute.
-
-⭐️ **Indira Lavocat**: Assistant, Engineer at the Paris Brain Insitut.
+⭐️ **Indira Lavocat**: Assistant, Engineer at the Paris Brain Insitute.
