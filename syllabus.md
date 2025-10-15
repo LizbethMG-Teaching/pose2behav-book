@@ -1,10 +1,12 @@
 # Syllabus
 
-<p align="center">
-  <img src="assets/illustrations/syllabus-cover.png" alt="Course cover" style="width:50%; height:auto; display:block; margin:auto;">
+<p style="text-align:center;">
+  <img src="assets/illustrations/syllabus-cover.png"
+       alt="Course cover illustration"
+       style="width:60%; height:auto; display:block; margin:0 auto;">
   <br>
-  <span style="font-size:0.9em; color:gray;">
-    Image generated with DALL·E GPT-5.
+  <span style="color:gray; font-size:0.9em;">
+    Image generated with <strong>DALL·E</strong> via <strong>ChatGPT&nbsp;(GPT-5)</strong>.
   </span>
 </p>
 
@@ -48,4 +50,5 @@ By the end of the course, students will be able to:
 ## 👩‍🏫 Instructors
 
 ⭐️ [S. Lizbeth Mondragón-González](https://lizbeth-mg.me/): Course lead, Ph.D. Research Engineer, Paris Brain Institute.
+
 ⭐️ **Indira Lavocat**: Assistant, Engineer at the Paris Brain Insitute.
