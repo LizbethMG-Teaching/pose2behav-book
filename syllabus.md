@@ -1,6 +1,6 @@
 # Syllabus
 
-![Alt text](../assets/syllabus-cover.png)
+![Alt text](../assets/illustrations/syllabus-cover.png)
 
 ## Course overview 
 
