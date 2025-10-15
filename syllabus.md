@@ -1,8 +1,5 @@
 # Syllabus
 
-
-
-
 ## Course overview 
 
 This course introduces students to quantitative, data-driven methods for analyzing animal behavior from video recordings. Using deep-learning based pose estimation tools such as *DeepLabCut*, participants learn how to extract movement keypoints and transform them into interpretable behavioral metrics. The course combines lectures on the theoretical foundations of computational behavioral analysis with hands-on exercises that guide students through the full workflow: from video → pose data → behavioral quantification → visualization and interpretation.
