@@ -1,14 +1,7 @@
 # Syllabus
 
-<p style="text-align:center;">
-  <img src="assets/illustrations/syllabus-cover.png"
-       alt="Course cover illustration"
-       style="width:60%; height:auto; display:block; margin:0 auto;">
-  <br>
-  <span style="color:gray; font-size:0.9em;">
-    Image generated with <strong>DALL·E</strong> via <strong>ChatGPT&nbsp;(GPT-5)</strong>.
-  </span>
-</p>
+
+
 
 ## Course overview 
 
