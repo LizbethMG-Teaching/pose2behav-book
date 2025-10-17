@@ -1,4 +1,4 @@
-# Lab 3: EDA
+# Lab 2: EDA
 
 ## Introduction
 
@@ -101,8 +101,3 @@ In this exercise, you will first conduct an Exploratory Data Analysis (EDA) to e
 ### Deliverables
 
 
-
-
-### Deliverables
-
-- Notebook or figures with brief notes
