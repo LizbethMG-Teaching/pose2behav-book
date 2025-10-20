@@ -2,12 +2,12 @@
 
 ## Course overview 
 
-This course introduces students to quantitative, data-driven methods for analyzing animal behavior from video recordings. Using deep-learning based pose estimation tools such as *DeepLabCut*, participants learn how to extract movement keypoints and transform them into interpretable behavioral metrics. The course combines lectures on the theoretical foundations of computational behavioral analysis with hands-on exercises that guide students through the full workflow: from video → pose data → behavioral quantification → visualization and interpretation.
+This course introduces students to quantitative, data-driven methods for analyzing animal behavior from video recordings. Using deep-learning based pose estimation tools such as *DeepLabCut*, participants learn how to extract movement keypoints and transform them into interpretable behavioral metrics. The course combines lectures on the theoretical foundations of computational behavioral analysis with hands-on exercises that guide students through the full workflow: from video → pose data → analysis → visualization and interpretation.
 
 ## In practice
 
 This course combines theoretical sessions (short presentations, sometimes followed by quizzes) with hands-on laboratory exercises (“Labs”) for each major theme.
-The labs are designed to help you apply theoretical concepts to real-world data and examples in animal pose estimation and behavioral analysis.
+The **labs** are designed to help you apply theoretical concepts to real-world data and examples in animal pose estimation and behavioral analysis.
 
 Throughout the course, you will find:
 
@@ -41,4 +41,4 @@ By the end of the course, students will be able to:
 
 ⭐️ [S. Lizbeth Mondragón-González](https://lizbeth-mg.me/): Course lead, Ph.D. Research Engineer, Paris Brain Institute.
 
-⭐️ **Indira Lavocat**: Assistant, Engineer at the Paris Brain Insitute.
+⭐️ **Indira Lavocat**: Course assistant, Engineer at the Paris Brain Insitute.

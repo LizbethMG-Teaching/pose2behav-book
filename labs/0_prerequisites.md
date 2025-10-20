@@ -100,6 +100,8 @@ Each Lab focuses on a specific theme or skill and contains guided exercises desi
 
 ## 2. DeepLabCut installation
 
+👉🏼 Skip this if you already have a GUI install of DLC in your computer. 
+
 ### 2.1 Introduction
 
 We will use [DeepLabCut (DLC)](https://www.mackenziemathislab.org/deeplabcut), a widely used open-source Python package collaboratively developed by the [Mackenzie Mathis Lab](https://www.mackenziemathislab.org/) and the [Mathis Lab](https://mathislab.org/).
@@ -440,9 +442,11 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
 
 ### 3.2. Open the notebook the right way
 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
+- If you see an “Open in Colab” badge, click it. Then do **File → Save a copy in Drive** so you work on your own copy.  
+  
+*Example of badge:*
 
-- If you see an “Open in Colab” badge, click it. Then do **File → Save a copy in Drive** so you work on your own copy.  ￼
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)￼
 
 ### 3.3  Run CODE cells
 
@@ -466,6 +470,7 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
 ### 3.6 Hardware settings (only if the notebook asks)
 
    If a Lab ask you to enable a GPU.
+
    - Go to Runtime → Change runtime type → Hardware accelerator → GPU, then Save. Colab docs and the “Pro” guide show this flow.  ￼
 
    If a GPU is not required, keep None to avoid limits.
@@ -481,6 +486,7 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
 - Keep everything in your Drive copy before editing.
 
 ### Extra references
+
 1. [Welcome to Colab overview.](https://colab.research.google.com)  ￼
 2. [Basic features notebook demo.](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) ￼
 3. [Load and save files including Drive mounting.](https://colab.research.google.com/notebooks/io.ipynb) ￼
