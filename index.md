@@ -1,6 +1,6 @@
 # From Pose to Behavior: Quantitative approaches to behavioral analysis
 
-This course is part of the curriculum in Master’s programs, including Université Claude Bernard Lyon 1  with content tailored to each program. It combines lectures on the fundamentals of data-driven methods for extracting and interpreting behavior from video using AI-based tools, with hands-on exercises where participants learn to transform video recordings into meaningful behavioral metrics, visualizations, and insights. 
+This course is part of Master's programs, such as the Master 2 Digital Mental Health track at ESPCI-Paris, with content designed for each program. It includes lectures on the basics of using AI tools to analyze behavior from video data, as well as hands-on exercises where participants learn to turn video recordings into useful behavioral metrics, visualizations, and insights.
 
 ## Quick links
 - 📘 [Syllabus](syllabus) 👈 Start Here

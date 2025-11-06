@@ -446,7 +446,7 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
   
 *Example of badge:*
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)￼
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
 
 ### 3.3  Run CODE cells
 
@@ -456,9 +456,9 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
   - Ctrl/Cmd+Enter run in place
   - Alt+Enter run and insert a new cell below
   
-   These appear in Colab’s basic features notebook.  ￼
+   These appear in Colab’s basic features notebook.  
 
-   **Run all cells: Runtime → Run all**. Useful after you finished the #TODOs.  ￼
+   **Run all cells: Runtime → Run all**. Useful after you finished the #TODOs.
 
    **Stop a cell: Runtime → Interrupt execution** if something hangs.
 
@@ -471,7 +471,7 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
 
    If a Lab ask you to enable a GPU.
 
-   - Go to Runtime → Change runtime type → Hardware accelerator → GPU, then Save. Colab docs and the “Pro” guide show this flow.  ￼
+   - Go to Runtime → Change runtime type → Hardware accelerator → GPU, then Save. Colab docs and the “Pro” guide show this flow. 
 
    If a GPU is not required, keep None to avoid limits.
 
@@ -482,13 +482,13 @@ You’ll work with **pre-filled notebooks** and complete short TODOs, then run c
 
 ### 🫵 Course workflow tips
 
-- Start at the top, run cells in order, complete each TODO block, then re-run the affected section or Run all to verify outputs.  ￼
+- Start at the top, run cells in order, complete each TODO block, then re-run the affected section or Run all to verify outputs. 
 - Keep everything in your Drive copy before editing.
 
 ### Extra references
 
-1. [Welcome to Colab overview.](https://colab.research.google.com)  ￼
-2. [Basic features notebook demo.](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) ￼
-3. [Load and save files including Drive mounting.](https://colab.research.google.com/notebooks/io.ipynb) ￼
-4. [Colab** FAQ on Drive access and accelerators.](https://research.google.com/colaboratory/faq.html) ￼
+1. [Welcome to Colab overview.](https://colab.research.google.com)  
+2. [Basic features notebook demo.](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) 
+3. [Load and save files including Drive mounting.](https://colab.research.google.com/notebooks/io.ipynb) 
+4. [Colab** FAQ on Drive access and accelerators.](https://research.google.com/colaboratory/faq.html) 
 5. [Jupyter Markdown help.](https://research.google.com/colaboratory/faq.html)

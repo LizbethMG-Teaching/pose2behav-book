@@ -33,10 +33,7 @@ In this notebook, you won’t work directly with the videos. Instead, you will u
 
 Here is a short looped preview of the behavior video:
 
-<video width="480" controls autoplay loop>
-  <source src="../assets/videos/single-mouse.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video width="480" controls autoplay loop muted playsinline> <source src="../_static/videos/single-mouse.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
 
 ## 📂 The files you get
 
