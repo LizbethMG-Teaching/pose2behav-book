@@ -15,12 +15,7 @@ parts:
   - caption: Labs
     chapters:
       - file: labs/0_prerequisites
-      - file: labs/1_labeling-lab
-      - file: labs/2_training-eval-lab
-      - file: labs/3_EDA-lab
-      - file: labs/4_analysis-lab
+      - file: labs/1_training-lab
+      - file: labs/2_EDA-lab
+      - file: labs/3_analysis-lab
 
-  - caption: Assignments
-    chapters:
-      - file: assignments/miniproject
-      - file: assignments/quiz-1
