@@ -30,17 +30,15 @@ The dataset is released under a **CC BY 4.0 license**, which permits reuse with 
 
 In this notebook, you won’t work directly with the videos. Instead, you will use the **pose estimation output** generated with the **SuperAnimal Top-View Mouse model zoo** (DeepLabCut).  
 
-
 Here is a short looped preview of the behavior video:
 
-<video width="480" controls autoplay loop>
-  <source src="../assets/videos/single-mouse.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+```
+<video width="480" controls autoplay loop muted playsinline> <source src="/pose2behav-book/_static/videos/single-mouse.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+```
 
-## 📂 The files you get
+## 📂 The files you get when working with SuperAnimal 
 
-### 📊 For analysis 
+### 📊 > For analysis 
 
 ####  H5 files
 
@@ -50,7 +48,7 @@ Here is a short looped preview of the behavior video:
 
   👉🏽 These are the files you will analyze.
 
-### 👀 For visualization 
+### 👀 > For visualization 
 
 ####  Videos
 
@@ -61,7 +59,7 @@ Here is a short looped preview of the behavior video:
   🔎 Use them for quick quality checks (does the nose follow correctly? does adaptation improve tracking?)
 
 
-### 📌For reproducibility 
+### 📌 > For reproducibility
 
 #### Metadata files
 
@@ -70,7 +68,7 @@ Here is a short looped preview of the behavior video:
 
   🔎 You don’t usually touch them directly, but they keep the run reproducible.
 
-### 💫For further training 
+### 💫 > For further training 
 
 #### Annotations folder
 
