@@ -22,12 +22,13 @@ project:
     - title: Lectures
       children:
         - file: lectures/intro.md
-        - file: lectures/questions.md
     
 site:
   template: book-theme
-  logo: assets/logo_mouse_camera.png
-  favicon: assets/logo_mouse_camera.png
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    logo: assets/logo_mouse_camera.png
+    favicon: assets/logo_mouse_camera.png
+    style: ./assets/custom.css
+  parts:
+    footer: |
+      © {{ date | strftime("%Y") }} Pose2Behav — Built with Jupyter Book.

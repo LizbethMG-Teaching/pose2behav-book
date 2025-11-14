@@ -1,0 +1,96 @@
+/* Slightly widen content on large screens */
+@media (min-width: 1200px) {
+  .bd-content { max-width: 980px; }
+}
+
+/* Improve list spacing on homepage quick links */
+.bd-content ul { margin-top: 0.4rem; }
+.bd-content li { margin: 0.2rem 0; }
+
+/* ====== Fonts ====== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* ====== Headings ====== */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #662C91; /* deep green */
+  margin-top: 1.5em;
+}
+
+/* ====== Links ====== */
+a {
+  color: #17a398; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f38d68; /* teal hover */
+  text-decoration: underline;
+}
+
+/* ====== Code blocks ====== */
+.highlight pre {
+  border-radius: 6px;
+  padding: 0.7em;
+  font-size: 0.9em;
+}
+
+/* Inline code */
+code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* ====== Tables ====== */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.6em 1em;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* ====== Horizontal rule ====== */
+hr {
+  border: 1px solid #eee;
+  margin: 2em 0;
+}
+
+/* ====== Admonitions (callouts) ====== */
+.admonition {
+  border-radius: 8px;
+  padding: 0.8em;
+}
+
+.admonition.tip {
+  border-left: 6px solid #662C91; /* teal */
+
+}
+
+.admonition.warning {
+  border-left: 6px solid #e7ae1e; /* yellow */
+
+}
+
+.admonition.danger {
+  border-left: 6px solid #E76F51; /* coral */
+  background: #FDECEA;
+}
+
+/* ============ Colors ===============*/
+.violet-text {
+  color:  #662C91;
+}
