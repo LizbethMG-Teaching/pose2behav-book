@@ -4,7 +4,7 @@
 
 🔑 The key idea
 
-- The SuperAnimal model[1] is a foundation for pose estimation model trained on many annotated datasets across species. This includes a vast dataset of mouse videos (around 5k top-view mouse images with 27 keypoints) and side-view images of quadruped animals (around 40k images, 39 key points, 45 mammalian species).
+- The **SuperAnimal model** [1] is a foundation for pose estimation model trained on many annotated datasets across species. This includes a vast dataset of mouse videos (around 5k top-view mouse images with 27 keypoints) and side-view images of quadruped animals (around 40k images, 39 key points, 45 mammalian species).
 - When you run it on your own video, SuperAnimal does three things:
   1. Inference before adaptation → run the pretrained model directly on your video.
   2. Adaptation step → optionally refine the model on your video (via lightweight domain adaptation or fine-tuning with labeled frames).
