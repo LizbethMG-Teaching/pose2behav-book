@@ -1,6 +1,6 @@
-# Lecture: TRANSFORMING POSE DATA INTO AI-POWERED BEHAVIORAL INSIGHTS
+# TRANSFORMING POSE DATA INTO AI-POWERED BEHAVIORAL INSIGHTS
 
-![Image created by the author with support from ChatGPT 5.1.](assets/illustrations/cover-syllabus.png)
+![Image created by the author with support from ChatGPT 5.1.](../assets/illustrations/cover-syllabus.png)
 
 ## Course overview
 
