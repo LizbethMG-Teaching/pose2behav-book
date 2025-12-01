@@ -1,6 +1,6 @@
 # Syllabus
 
-![Syllabus](../assets/illustrations/cover-syllabus.png)
+![Image created by the author with support from ChatGPT 5.1.](assets/illustrations/cover_sy.png)
 
 ## Course overview
 

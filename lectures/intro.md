@@ -16,7 +16,7 @@
 
 ### PART 3 - Machine learning and pose estimation: foundations
 
-- 3.1 From pixels to poses: A reduced and meaningful representation of the animal 
+- 3.1 From pixels to poses: A reduced and meaningful representation of the animal
 - 3.2 From coarse to fine tracking
 - 3.3 What is pose estimation?
 - 3.4 Marker-based tracking
