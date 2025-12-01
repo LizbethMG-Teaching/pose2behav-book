@@ -80,3 +80,64 @@
 ## Quiz Time !
 
 https://forms.gle/vBK2ASQ95HzSkcah6
+
+## Scenario descriptions
+
+### ⭐️ Scenario 1 
+
+#### Motor tics in Tourette syndrome with EEG
+
+You work in a clinical research team studying Tourette syndrome. Your main interest is in the brain activity that happens just before and during motor tics. Motor tics in Tourette Syndrome are sudden, rapid, recurrent, nonrhythmic, involuntary movements that often involve a limited group of muscles.
+
+**🫨 Motor tics are:**
+
+- Sudden, brief, and hard to predict
+- Often repeated, but with variable form
+- Can involve different body parts such as eyes, mouth, shoulders, arms, trunk
+- Different between patients, and even in the same patient over time
+- Sometimes subtle and fast, sometimes strong and large
+- Can be simple (eye blink, shoulder shrug) or complex (sequences of movements involving several joints)
+
+👉🏼 **You have:**
+
+- 30 adult patients with Tourette syndrome
+- One single recording session per patient, about 60 minutes each
+- High density EEG during spontaneous behavior, patients are seated and allowed to tic freely
+- Optionally, a short calibration period in which the patient is asked to perform some predefined movements
+- Possibility to synchronize video cameras and place them anywhere in the experimental room.
+
+Your goal is to relate EEG activity to tic onset and tic type. You would like to know when tics occur, which body parts are involved, and possibly their intensity.
+
+❓ **Questions:**
+1. How would you design the recording session to maximize the chance of capturing many tics while keeping patients comfortable and safe?
+
+2. How would you define and annotate “tic onset” and “tic type” so that it is usable for analysis?
+
+3. Would you try to build a single machine learning model that detects tics across all patients, or one personalized model per patient, or something else? Why?
+
+4. Given the heterogeneity of tics and your population size, do you think a pose-estimation based machine learning solution is worth the effort here? Under which conditions would it be justified?
+
+  ---
+
+### ⭐️ Scenario 2
+
+#### 💉Sedation and locomotor effects of DREADDs and new compounds
+
+You work in a lab using *DREADDs* (Designer Receptors Exclusively Activated by Designer Drugs) to manipulate neural activity in mice. DREADDs are genetically engineered cell receptors that act as molecular switches which can only be turned on or off by their corresponding synthetic signaling molecules, the *ligands*. Some DREADD ligands, like CNO (Clozapine N-Oxide), are known to cause sedation. You now have three new compounds that target the same receptors, and you want to test whether they induce sedation or other motor side effects.
+
+**Your main question is: do these compounds cause sedation or gross motor impairments, and how does this depend on dose and time after injection?**
+
+👉🏼 **Design constraints**
+
+- You have 3 compounds, and for each compound you test 3 doses (low, medium, high) + CNO standard dose.
+- 120 mice distributed into the different testing groups
+- You have limited time for this experiment (12 months for the whole protocol! experiments + analysis)
+- You have access to standard video tracking in an open field or home cage
+
+❓ **Questions:** 
+
+1. What is the minimal behavioral setup that would let you detect sedation or strong motor changes reliably across many mice and conditions?
+
+2. Which basic behavioral metrics would you extract first, before investing in complex pose estimation? Think of activity levels, distance travelled, speed, time spent moving vs resting, rearing, etc.
+
+3. Under which conditions would you decide that kinematics and spatial analysis are sufficient, and when would you decide that behavioral clustering is required? 
