@@ -26,7 +26,7 @@ The file used here:
 The dataset is released under a **CC BY 4.0 license**, which permits reuse with proper attribution:  
 
 [2] Von Ziegler, L., Roessler, F. K., Sturman, O., O'Connor, E. C., & Bohacek, J. (2024).  
-*Additional raw video and pose estimation data of top view open field mouse behavior recordings after diazepam injections* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.11235915  
+*Additional raw video and pose estimation data of top view open field mouse behavior recordings after diazepam injections* [Data set]. Zenodo. DOI: 10.5281/zenodo.11235915 
 
 In this notebook, you won’t work directly with the videos. Instead, you will use the **pose estimation output** generated with the **SuperAnimal Top-View Mouse model zoo** (DeepLabCut).  
 

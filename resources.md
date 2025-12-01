@@ -7,11 +7,11 @@ This page gathers the key references, tools, and datasets used in the course *Fr
 
 ### State of the art
 
-[1] **Mathis, M. W., & Mathis, A.** (2020). *Deep learning tools for the measurement of animal behavior in neuroscience.* *Current Opinion in Neurobiology, 60*, 1–11. [https://doi.org/10.1016/j.conb.2019.11.004](https://doi.org/10.1016/j.conb.2019.11.004)
+[1] **Mathis, M. W., & Mathis, A.** (2020). *Deep learning tools for the measurement of animal behavior in neuroscience.* *Current Opinion in Neurobiology, 60*, 1–11. DOI: 10.1016/j.conb.2019.11.004
 
-[2] **Luxem, K., Fuhrmann, F., Koch, M., & Stemmler, M.** (2023). *Open-source tools for behavioral video analysis: Setup, methods, and best practices.* *eLife, 12*, e79305. [https://doi.org/10.7554/eLife.79305](https://doi.org/10.7554/eLife.79305)
+[2] **Luxem, K., Fuhrmann, F., Koch, M., & Stemmler, M.** (2023). *Open-source tools for behavioral video analysis: Setup, methods, and best practices.* *eLife, 12*, e79305. DOI: 10.7554/eLife.79305
 
-[3] **Fazzari, E., et al.** (2025). *Animal behavior analysis methods using deep learning: A survey.* *Expert Systems with Applications, 257*, 125219. [https://doi.org/10.1016/j.eswa.2025.125219](https://doi.org/10.1016/j.eswa.2025.125219)
+[3] **Fazzari, E., et al.** (2025). *Animal behavior analysis methods using deep learning: A survey.* *Expert Systems with Applications, 257*, 125219. DOI: 10.1016/j.eswa.2025.125219
 
 ---
 
@@ -47,15 +47,17 @@ This page gathers the key references, tools, and datasets used in the course *Fr
 
 - *Source:* [Zenodo: Raw video and pose estimation data of top-view open field mouse behavior recordings after yohimbine injections](https://zenodo.org/records/8188683)
 
-- [7] **von Ziegler, L. M., Roessler, F. K., Sturman, O., O'Connor, E. C., & Bohacek, J.** (2023). *Raw video and pose estimation data of top-view open field mouse behavior recordings after yohimbine injections* [Data set]. *Zenodo.* [https://doi.org/10.5281/zenodo.8188683](https://doi.org/10.5281/zenodo.8188683)
+- [7] **von Ziegler, L. M., Roessler, F. K., Sturman, O., O'Connor, E. C., & Bohacek, J.** (2023). *Raw video and pose estimation data of top-view open field mouse behavior recordings after yohimbine injections* [Data set]. *Zenodo.* DOI: 10.5281/zenodo.8188683
+
 
 #### Multi-mice video used in Lab 4
 
 - *Original file name (before trimming):* `mice_3_652x636_67Hz_6min57s.mp4.mp4`  
 
-- *Source:* [Zenode: UDMT dataset: Behavioral recordings used for unsupervised multi-animal tracking.](https://zenodo.org/records/14580256)
+- *Source:* [Zenodo: UDMT dataset: Behavioral recordings used for unsupervised multi-animal tracking.](https://zenodo.org/records/14580256)
 
-- [8] **Li, Y.** (2024). *UDMT dataset: Behavioral recordings used for unsupervised multi-animal tracking* [Data set]. *Zenodo.* [https://doi.org/10.5281/zenodo.14580256](https://doi.org/10.5281/zenodo.14580256)
+- [8] **Li, Y.** (2024). *UDMT dataset: Behavioral recordings used for unsupervised multi-animal tracking* [Data set]. *Zenodo.* DOI: 10.5281/zenodo.14580256
+
 
 ---
 
