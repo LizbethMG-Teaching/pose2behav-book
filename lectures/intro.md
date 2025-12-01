@@ -76,3 +76,7 @@
 - 8.3 Unsupervised approach
 - 8.4 Supervised approach
 - 8.5 AI tools for behavioral analysis: overview
+
+## Quiz Time !
+
+https://forms.gle/vBK2ASQ95HzSkcah6
