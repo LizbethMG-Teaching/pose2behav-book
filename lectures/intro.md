@@ -1,6 +1,6 @@
-# TRANSFORMING POSE DATA INTO AI-POWERED BEHAVIORAL INSIGHTS
+# Transforming pose data into AI-powered behavioral insights
 
-![Image created by the author with support from ChatGPT 5.1.](../assets/illustrations/cover-syllabus.png)
+![Image created by the author with support from ChatGPT 5.1.](../assets/illustrations/cover-lectures.png)
 
 ## Course overview
 
@@ -61,7 +61,7 @@
 - 7.2 Common pitfalls: Annotation issues
 - 7.3 Common pitfalls: Dataset design
 
-### PART 8 - Frole pose to kinematics and behavior analysis
+### PART 8 - Frome pose to kinematics and behavior analysis
 
 - 8.1 Kinematics and spatial analysis
   - Basic kinematic metrics

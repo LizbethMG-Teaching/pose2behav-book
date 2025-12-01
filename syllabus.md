@@ -1,6 +1,8 @@
 # Syllabus
 
-## Course overview 
+![Syllabus](../assets/illustrations/cover-syllabus.png)
+
+## Course overview
 
 This course introduces students to quantitative, data-driven methods for analyzing animal behavior from video recordings. Using deep-learning based pose estimation tools such as *DeepLabCut*, participants learn how to extract movement keypoints and transform them into interpretable behavioral metrics. The course combines lectures on the theoretical foundations of computational behavioral analysis with hands-on exercises that guide students through the full workflow: from video → pose data → analysis → visualization and interpretation.
 
@@ -31,14 +33,14 @@ Each lab focuses on a key topic related to animal pose estimation and behavioral
 
 By the end of the course, students will be able to:
 
-* Explain the principles of pose estimation.
-* Preprocess and clean pose data generated from videos.
-* Compute basic behavioral metrics such as trajectories, speed, and spatial occupancy.
-* Visualize and interpret behavioral data to generate clear scientific insights.
-* Critically evaluate the strengths and limitations of AI-driven pose estimation analysis approaches.
+- Explain the principles of pose estimation.
+- Preprocess and clean pose data generated from videos.
+- Compute basic behavioral metrics such as trajectories, speed, and spatial occupancy.
+- Visualize and interpret behavioral data to generate clear scientific insights.
+- Critically evaluate the strengths and limitations of AI-driven pose estimation analysis approaches.
 
 ## 👩‍🏫 Instructors
 
 ⭐️ [S. Lizbeth Mondragón-González](https://lizbeth-mg.me/): Course lead, Ph.D. Research Engineer, Paris Brain Institute.
 
-⭐️ **Indira Lavocat**: Course assistant, Engineer at the Paris Brain Insitute.
+⭐️ Indira Lavocat: Course assistant, Engineer at the Paris Brain Insitute
