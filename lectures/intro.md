@@ -27,7 +27,7 @@
 - 3.9 Human pose datasets
 - 3.10 Transfer learning
 - 3.11 Backbone architectures
-- 3.12 Chooseing a backbone architecture
+- 3.12 Choosing a backbone architecture
 - 3.12 Data augmentation
 - 3.14 Active Learning
   - Frame extraction
@@ -46,7 +46,7 @@
 
 - 5.1 Pose estimation / motion tracking
 
-### PART 6 - Key algorithms
+### PART 6 - Focus on DLC
 
 - 6.1 Workflow: Create project
 - 6.2 Workflow: Extract frames
@@ -78,6 +78,8 @@
 - 8.5 AI tools for behavioral analysis: overview
 
 ## Quiz Time !
+
+Cours Dec-2025: 
 
 https://forms.gle/vBK2ASQ95HzSkcah6
 

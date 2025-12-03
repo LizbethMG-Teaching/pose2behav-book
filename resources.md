@@ -1,6 +1,6 @@
 # Resources  
 
-This page gathers the key references, tools, and datasets used in the course *From Pose to Behavior: Quantitative Approaches to Behavioral Analysis*.  
+This page gathers the key references, tools, and datasets mentioned during the lecture *From Pose to Behavior: Quantitative Approaches to Behavioral Analysis*.  
 
 
 ## 📖 Background Reading

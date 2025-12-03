@@ -1,10 +1,11 @@
 # From Pose to Behavior: Quantitative approaches to behavioral analysis
 
-This course is part of Master's programs, such as the Master 2 Digital Mental Health track at ESPCI-Paris, with content designed for each program. It includes lectures on the basics of using AI tools to analyze behavior from video data, as well as hands-on exercises where participants learn to turn video recordings into useful behavioral metrics, visualizations, and insights.
+This Master’s-level course (e.g., part of the Master 2 Digital Mental Health track at ESPCI-Paris/Paris Santé Campus) explores how AI can be used to analyze behavior from video data. Participants engage in lectures, hands-on exercises, and quizzes to turn raw recordings into actionable behavioral metrics, visualizations, and insights — skills relevant to research, experimentation, and applied projects
+
 
 ## Quick links
 - 📘 [Syllabus](syllabus) 👈 Start Here
+- 🎓 [Lectures](lectures/intro)
+- 🧪 [Labs](labs/labeling-lab)
 - 📚 [Resources](resources)
 - ❓ [FAQ](FAQ)
-- 🧪 [Labs](labs/labeling-lab)
-- 🎓 [Lectures](lectures/intro)
