@@ -32,9 +32,10 @@ In this notebook, you won’t work directly with the videos. Instead, you will u
 
 Here is a short looped preview of the behavior video:
 
-```
-<video width="480" controls autoplay loop muted playsinline> <source src="/pose2behav-book/_static/videos/single-mouse.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
-```
+<video width="560" controls>
+  <source src="../assets/singme-mouse-pose-trim-first7s.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 📂 The files you get when working with SuperAnimal 
 
@@ -91,11 +92,6 @@ where x = 1:X; by 00X you have the latest adapted version.
   🔎 Unless you want to resume training or share the adapted model, you mostly don’t need to open these. But they’re valuable if you want to improve further later.
 
 
-
 ## Tasks
 
 In this exercise, you will first conduct an Exploratory Data Analysis (EDA) to examine the files produced by a pose estimation analysis. This preliminary step is critical, as it enables a systematic assessment of the data structure, its defining characteristics, and potential anomalies, thereby providing the necessary foundation for subsequent work with the prediction files.
-
-### Deliverables
-
-
