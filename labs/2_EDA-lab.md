@@ -30,12 +30,10 @@ The dataset is released under a **CC BY 4.0 license**, which permits reuse with 
 
 In this notebook, you won’t work directly with the videos. Instead, you will use the **pose estimation output** generated with the **SuperAnimal Top-View Mouse model zoo** (DeepLabCut).  
 
-Here is a short looped preview of the behavior video:
+👀 Here is a short preview of the behavior video (first 7 seconds):
 
-<video width="560" controls>
-  <source src="../assets/singme-mouse-pose-trim-first7s.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch the short video on Google Drive](https://drive.google.com/file/d/1gBc5pPYaHHX0myhy5oE_Cu7lw1HjhzOS/view?usp=sharing)
+
 
 ## 📂 The files you get when working with SuperAnimal 
 
