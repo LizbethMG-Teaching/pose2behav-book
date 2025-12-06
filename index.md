@@ -8,6 +8,5 @@ This Master’s-level course (e.g., part of the Master 2 Digital Mental Health t
 ## Quick links
 - 📘 [Syllabus](syllabus) 👈 Start Here
 - 🎓 [Lectures](lectures/intro)
-- 🧪 [Labs](labs/labeling-lab)
+- 🧪 [Labs](labs/0_prerequisites)
 - 📚 [Resources](resources)
-- ❓ [FAQ](FAQ)
