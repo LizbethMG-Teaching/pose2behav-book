@@ -30,10 +30,11 @@ The dataset is released under a **CC BY 4.0 license**, which permits reuse with 
 
 In this notebook, you won’t work directly with the videos. Instead, you will use the **pose estimation output** generated with the **SuperAnimal Top-View Mouse model zoo** (DeepLabCut).  
 
-👀 Here is a short preview of the behavior video (first 7 seconds):
+🎥👀 Here is a short preview of the behavior video (first 7 seconds): 👇🏼👇🏼👇🏼
 
 [Watch the short video on Google Drive](https://drive.google.com/file/d/1gBc5pPYaHHX0myhy5oE_Cu7lw1HjhzOS/view?usp=sharing)
 
+--- 
 
 ## 📂 The files you get when working with SuperAnimal 
 
@@ -93,3 +94,8 @@ where x = 1:X; by 00X you have the latest adapted version.
 ## Tasks
 
 In this exercise, you will first conduct an Exploratory Data Analysis (EDA) to examine the files produced by a pose estimation analysis. This preliminary step is critical, as it enables a systematic assessment of the data structure, its defining characteristics, and potential anomalies, thereby providing the necessary foundation for subsequent work with the prediction files.
+
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/EDA-students.ipynb)]
