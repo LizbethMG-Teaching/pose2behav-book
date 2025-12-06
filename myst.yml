@@ -23,6 +23,7 @@ project:
         - file: labs/1_training-lab.md
         - file: labs/2_EDA-lab.md
         - file: labs/3_analysis-lab.md
+        - file: labs/4_analysis-multianimal-lab.md
     - file: resources.md
     - file: license.md  
     
