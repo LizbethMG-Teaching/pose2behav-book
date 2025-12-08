@@ -23,6 +23,9 @@ By the end of the lab, you will submit:
 - A final medal plot showing category winners
 
 ---
-<!-- 
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/analysis_multi_animal-students.ipynb)
+
+<!--
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/analysis_multi_animal.ipynb)
 -->

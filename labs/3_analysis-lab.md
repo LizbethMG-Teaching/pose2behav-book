@@ -27,6 +27,9 @@ From this notebook you will generate:
 - Notes or observations about data quality issues you detect, such as missing points or abrupt jumps.
 
 ---
-<!-- 
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/analysis_single-animal-students.ipynb)
+
+<!--
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/analysis_single-animal.ipynb)
 -->
