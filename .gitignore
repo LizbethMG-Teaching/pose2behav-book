@@ -4,3 +4,6 @@
 
 # MyST build outputs
 _build
+# Keep instructor copies outside this public repository.
+_private/
+*solutions-private/

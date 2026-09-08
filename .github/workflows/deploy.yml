@@ -39,6 +39,11 @@ jobs:
         run: npm install -g jupyter-book
       - name: Build HTML Assets
         run: jupyter-book build --html
+      - name: Check student materials and add unlisted solutions page
+        run: |
+          node scripts/check-solutions-boundary.mjs
+          node scripts/add-solutions-page.mjs
+          node scripts/check-solutions-boundary.mjs --built
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

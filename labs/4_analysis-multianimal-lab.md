@@ -25,7 +25,3 @@ By the end of the lab, you will submit:
 ---
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/analysis_multi_animal-students.ipynb)
-
-<!--
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LizbethMG-Teaching/pose2behav-book/blob/main/notebooks/analysis_multi_animal.ipynb)
--->
