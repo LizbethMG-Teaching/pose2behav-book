@@ -1,0 +1,21 @@
+name: Check student site and solutions boundary
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      BASE_URL: /pose2behav-book
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+      - run: node scripts/check-solutions-boundary.mjs
+      - run: npm install -g jupyter-book
+      - run: jupyter-book build --html
+      - run: node scripts/add-solutions-page.mjs
+      - run: node scripts/check-solutions-boundary.mjs --built
